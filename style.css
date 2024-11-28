@@ -1,0 +1,73 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 60px;
+}
+.nav1 {
+  color: white;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+a {
+  color: white;
+  font-size: 20px;
+}
+a:hover {
+  background-color: rgb(19, 4, 73);
+}
+.container {
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 700px;
+  background-color: rgb(231, 243, 231);
+  font-size: 20px;
+  border: 3px solid black;
+}
+.required {
+  color: red;
+}
+.rules {
+  border: 2px dotted green;
+  background-color: rgb(158, 229, 158);
+}
+.left {
+  background-color: rgb(93, 235, 152);
+  width: 170px;
+  text-align: end;
+}
+#country {
+  width: 400px;
+  height: 30px;
+}
+.acc {
+  text-align: right;
+}
+.terms {
+  color: blue;
+  font-weight: 800;
+}
+.btns {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#btn1,
+#btn2 {
+  margin-right: 10px;
+  padding: 10px 24px;
+}
+a {
+  padding: 0px 30px;
+  text-align: center;
+  transition: 0.4s;
+}
+a:hover {
+  background-color: rgb(164, 34, 69);
+}
